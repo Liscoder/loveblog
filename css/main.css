@@ -1,0 +1,57 @@
+.nav-brand {
+  color: #e7663b; }
+  .nav-brand span {
+    color: #F1AE9D; }
+
+header {
+  background-color: #F1AE9D; }
+  header .row {
+    background-color: #e7663b;
+    color: white; }
+
+.nav a {
+  color: #c5c5c5; }
+
+@font-face {
+  font-family: "bebasNeue";
+  src: url("../font/BEBAS___.ttf"); }
+@font-face {
+  font-family: "Helvetica";
+  src: url("../font/HelveticaNeue.ttf"); }
+body {
+  font-family: "Helvetica"; }
+
+h1, h2, h3, h4, h5 {
+  font-family: "bebasNeue"; }
+
+.p-left, .single_service_container .portfolio .title, .single_service_container .offer .title, .single_service_container .follow .title {
+  padding-left: 20%; }
+
+.service_area h2 {
+  background: white; }
+
+.single_service_container .portfolio .title {
+  background: url("../images/portfolio.png") no-repeat; }
+.single_service_container .offer .title {
+  background: url("../images/offer.png") no-repeat; }
+.single_service_container .follow .title {
+  background: url("../images/follow.png") no-repeat; }
+
+.header_bottom_area {
+  background-color: #F1AE9D;
+  height: 50px;
+  width: 100%; }
+
+.main_content_area {
+  position: relative;
+  top: -50px; }
+  .main_content_area .container {
+    padding: 0 10px; }
+    .main_content_area .container .represent {
+      background-color: #e7663b;
+      height: 50px;
+      margin-bottom: 20px; }
+      .main_content_area .container .represent h1 {
+        margin-top: 0; }
+
+/*# sourceMappingURL=main.css.map */

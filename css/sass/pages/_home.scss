@@ -1,0 +1,28 @@
+.p-left{
+	padding-left:20%;
+}
+.service_area h2{
+		background:white;
+
+}
+.single_service_container{
+	.portfolio{
+		.title{
+		background: url('../images/portfolio.png') no-repeat;
+		@extend .p-left;
+		}
+	}
+	.offer{
+		.title{
+		background:url('../images/offer.png') no-repeat;
+		@extend .p-left;					
+		}
+	}
+	.follow{
+		.title{
+		background:url('../images/follow.png') no-repeat;
+		@extend .p-left;
+		}
+	}
+
+}
