@@ -12,7 +12,39 @@ header{
 	}
 }
 .nav {
-   a{
-      color: #c5c5c5;
-   }
- }
+	li{
+		background-color:transparent;
+		&:hover,&:active,&:focus{
+			background-color:transparent;
+		}
+		a{
+     		color: #c5c5c5;
+      		font-family: "bebasNeue";
+			font-size:20px;
+			&:hover,&:active,&:focus{
+				background-color:transparent;
+				color:#e7663b;
+				}
+		}
+	}
+}
+.nav{
+		a{
+     		color: #c5c5c5;
+      		font-family: "bebasNeue";
+			font-size:20px;
+			&:hover,&:active,&:focus{
+				background-color:transparent;
+				color:#e7663b;
+				}
+		}
+	}
+.nav .active{
+	a{
+		color:#e7663b;
+	}
+	
+}
+.navbar-right{
+	padding-top:20px;
+}

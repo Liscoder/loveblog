@@ -1,0 +1,53 @@
+@mixin fondo(){
+	&#formulario::-webkit-input-placeholder {
+	color:#e7663b;}
+
+	&#formulario:-moz-placeholder { /* Firefox 18- */
+	color:#e7663b;   
+	}
+
+	&#formulario::-moz-placeholder {  /* Firefox 19+ */
+	color:#e7663b;
+    }
+
+&#formulario:-ms-input-placeholder {  
+	color:#e7663b;
+    
+}
+}
+.contact{
+	iframe{
+		width:100%;
+	}
+}
+
+.adicional{
+	@include fondo();
+}
+
+
+
+form {
+
+	.form-group{
+		border-color:#e7663b;
+
+		input{
+			@extend .adicional;
+			border-color:#e7663b;
+		}
+		textarea{
+			@extend .adicional;
+			border-color:#e7663b;
+		}
+		.btn-submit{
+			background-color:#e7663b;
+			color:white;
+		}
+	}
+}
+
+.free{
+	color:#e7663b;
+}
+

@@ -26,3 +26,67 @@
 	}
 
 }
+.main_content_area{
+	position:relative;
+	top:-50px;
+		.container{
+		padding:0 8px;
+			.represent{
+			background-color:#e7663b;
+			height:50px;
+			border-left:8px solid white;
+			border-right:8px solid white;
+				h1{
+				margin-top:0;
+				margin-bottom:20px;
+				}
+			}
+		}
+	}
+.carousel-inner{
+	img{
+		width:100%;
+	}
+}
+.single_service_container{
+	h2{
+		font-size:20px;
+		color:#e7663b;
+	}
+	a{
+		text-decoration: none;
+		color:white;
+		transform: uppercase;
+
+	}
+}
+.articulo{
+	background:url('../images/bkg-pat.png');
+	margin:3% 1%;
+	h2{
+		background-color:white;
+		width:20%;
+		color:#e7663b;
+	}
+}
+
+.single_blog_post,.single_work{
+	img{
+		width:100%;
+	}
+}
+
+.blog_post_meta{
+			border-right:1px solid #c5c5c5;
+			border-left:1px solid #c5c5c5;
+			border-bottom:1px solid #c5c5c5;
+			padding:0 3%;
+			h3{
+				color:#c5c5c5;
+				font-size: 18px;
+			}
+			h4{
+				color:#e7663b;
+				font-size:14px;
+			}
+		}
