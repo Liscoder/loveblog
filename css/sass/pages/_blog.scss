@@ -13,7 +13,7 @@
 	}
 }
 .articulo{
-	color:#e7663b;
+	color:$color-dark;
 	h3{
 		width:70%;
 		background-color:white;
@@ -40,7 +40,7 @@
 		color:#c5c5c5;
 	}
 	.coment{
-		color:#e7663b;
+		color:$color-dark;
 		font-family: "bebasNeue";
 	}
 
@@ -64,7 +64,7 @@
 }
 .blog{
 	h2{
-		color:#e7663b;
+		color:$color-dark;
 	}
 }
 .blog{
@@ -73,7 +73,7 @@
 	list-style:none;
 	a{
 		padding:32%;
-		background-color:#e7663b;
+		background-color:$color-dark;
 		text-decoration:none;
 		margin:5px 1px;
 		color:white;

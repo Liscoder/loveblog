@@ -8,3 +8,20 @@
 .btn{
 	@include border-radius(3px);
 }
+@mixin fondo(){
+	&#formulario::-webkit-input-placeholder {
+	color:$color-dark;}
+
+	&#formulario:-moz-placeholder { /* Firefox 18- */
+	color:$color-dark;   
+	}
+
+	&#formulario::-moz-placeholder {  /* Firefox 19+ */
+	color:$color-dark;
+    }
+
+&#formulario:-ms-input-placeholder {  
+	color:$color-dark;
+    
+}
+}

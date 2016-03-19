@@ -1,13 +1,13 @@
 .nav-brand{
-	color:#e7663b;
+	color:$color-dark;
 	span{
-		color:#F1AE9D;
+		color:$color-light;
 	}
 }
 header{
-	background-color:#F1AE9D;
+	background-color:#color-light;
 	.row{
-		background-color: #e7663b;
+		background-color: $color-dark;
 		color:white;
 	}
 }
@@ -23,7 +23,7 @@ header{
 			font-size:20px;
 			&:hover,&:active,&:focus{
 				background-color:transparent;
-				color:#e7663b;
+				color:$color-dark;
 				}
 		}
 	}
@@ -35,13 +35,13 @@ header{
 			font-size:20px;
 			&:hover,&:active,&:focus{
 				background-color:transparent;
-				color:#e7663b;
+				color:$color-dark;
 				}
 		}
 	}
 .nav .active{
 	a{
-		color:#e7663b;
+		color:$color-dark;
 	}
 	
 }
