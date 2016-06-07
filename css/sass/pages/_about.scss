@@ -1,0 +1,15 @@
+.about{
+	img{
+		width:100%;
+	}
+}
+.about{
+	.extracto{
+		border-left:15px solid $color-dark;
+		margin:30px 10px;
+		color:$color-light;
+	}
+	div{
+		margin:10px 0;
+	}
+}

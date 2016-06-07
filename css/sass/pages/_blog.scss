@@ -1,0 +1,83 @@
+.blog{
+	.separate,.separate-2,.separate-3,.separate-4,.separate-5{
+		background:url('../images/bkg-pat.png');
+		width:100%;
+		height:30px;
+		margin-top:305px;
+	}
+	.separate-4{
+		margin-top:605px;
+		}
+	.separate-5{
+		margin-top:40px;
+	}
+}
+.articulo{
+	color:$color-dark;
+	h3{
+		width:70%;
+		background-color:white;
+	}
+}
+.represent{
+	ul{
+		list-style:none;
+	}
+}
+.topics{
+	p{
+		margin-left:20px;
+	}
+	ul{
+		list-style: none;
+	}
+}
+.represent{
+	.date{
+		margin-top:30px;
+
+	li{
+		color:#c5c5c5;
+	}
+	.coment{
+		color:$color-dark;
+		font-family: "bebasNeue";
+	}
+
+	}
+}
+.some{
+	span{
+		color:#c5c5c5;
+		margin:45px 0;
+	}
+}
+.quote{
+	background-color:rgba(191,184,184,0.16);
+	margin-bottom:20px;
+}
+.word{
+	margin:30px 15px;
+	img{
+		width:100%;
+	}
+}
+.blog{
+	h2{
+		color:$color-dark;
+	}
+}
+.blog{
+	.pagination li{
+	display:inline-block;
+	list-style:none;
+	a{
+		padding:32%;
+		background-color:$color-dark;
+		text-decoration:none;
+		margin:5px 1px;
+		color:white;
+	}
+
+}
+}

@@ -1,0 +1,50 @@
+.nav-brand{
+	color:$color-dark;
+	span{
+		color:$color-light;
+	}
+}
+header{
+	background-color:#color-light;
+	.row{
+		background-color: $color-dark;
+		color:white;
+	}
+}
+.nav {
+	li{
+		background-color:transparent;
+		&:hover,&:active,&:focus{
+			background-color:transparent;
+		}
+		a{
+     		color: #c5c5c5;
+      		font-family: "bebasNeue";
+			font-size:20px;
+			&:hover,&:active,&:focus{
+				background-color:transparent;
+				color:$color-dark;
+				}
+		}
+	}
+}
+.nav{
+		a{
+     		color: #c5c5c5;
+      		font-family: "bebasNeue";
+			font-size:20px;
+			&:hover,&:active,&:focus{
+				background-color:transparent;
+				color:$color-dark;
+				}
+		}
+	}
+.nav .active{
+	a{
+		color:$color-dark;
+	}
+	
+}
+.navbar-right{
+	padding-top:20px;
+}

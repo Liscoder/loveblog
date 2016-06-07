@@ -1,0 +1,35 @@
+
+.contact{
+	iframe{
+		width:100%;
+	}
+}
+
+.adicional{
+	@include fondo();
+}
+
+form {
+
+	.form-group{
+		border-color:$color-dark;
+
+		input{
+			@extend .adicional;
+			border-color:$color-dark;
+		}
+		textarea{
+			@extend .adicional;
+			border-color:$color-dark;
+		}
+		.btn-submit{
+			background-color:$color-dark;
+			color:white;
+		}
+	}
+}
+
+.free{
+	color:$color-dark;
+}
+
